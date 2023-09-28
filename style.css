@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
+
+*{
+    font-family: 'Tauri', sans-serif;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.ToDo{
+    background-image: url(./assets/images/Sprinkle.svg);
+    background-size:contain;
+    background-attachment: fixed;
+    width: 700px;
+    display: block;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.title{
+    text-align: center;
+}
+
+.task{
+    margin-left: 65px;
+}
+
+#input{
+    width: 500px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    outline: none;
+}
+
+#btn-add{
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+#task-list{
+    margin-left: 0px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.btnscontainer{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.btndone,.btnremove{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+#alerta{
+    text-align: center;
+}
